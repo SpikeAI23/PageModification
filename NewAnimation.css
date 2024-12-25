@@ -1,0 +1,85 @@
+        /* Smooth Transition */
+        * {
+            transition: all 0.3s ease;
+        }
+        /* Body Styling */
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Links */
+        a {
+            color: #ff4081;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #f50057;
+        }
+
+        /* Headings */
+        h1, h2, h3, h4, h5, h6 {
+            color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        /* Buttons */
+        button, .btn {
+            background-color: #ff4081;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover, .btn:hover {
+            background-color: #f50057;
+        }
+
+        /* Forms */
+        input, textarea {
+            background-color: #333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        input:focus, textarea:focus {
+            background-color: #444;
+            border-color: #ff4081;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #1c1c1c;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #e0e0e0;
+            margin-right: 20px;
+        }
+        nav a:hover {
+            color: #ff4081;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1c1c1c;
+            color: #bdbdbd;
+            padding: 20px;
+            text-align: center;
+        }
+
+
